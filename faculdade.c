@@ -228,8 +228,11 @@
        
        
       if (((x >=y) && (z <= x)) || ((x == w) && (y == z)) || (!(x != w))){
-         return cavalo;
+         return 0;
       }
+        else{
+         return 1;
+        }
       
       
         }
