@@ -228,10 +228,10 @@
        
        
       if (((x >=y) && (z <= x)) || ((x == w) && (y == z)) || (!(x != w))){
-         return 0;
+         return 1;
       }
         else{
-         return 1;
+         return 0;
         }
       
       
