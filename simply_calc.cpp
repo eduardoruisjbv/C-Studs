@@ -23,7 +23,7 @@ int main () {
     char op, choice[10];
 
     cout<<"+ pra adicionar, - pra subtrair, * pra multiplicar, / pra dividir, \
-^ to power, ! to factorial\n\n";
+^ pra potencia, ! pra fatorial\n\n";
     start: // começo
 
     cin>>a; // primeiro numero
