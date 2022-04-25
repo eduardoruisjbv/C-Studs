@@ -51,8 +51,8 @@ int main () {
 
     //Criando a Base para o LOOP!
     cout<<"\nDigite 'restart' pra voltar desde o inicio, \
-'reuse' to use the result, \n'mr' to reuse the number \
-in the memory, or 'quit' to quit: ";
+'reuse' usar o resultado, \n'mr' re-ultilizar o nnumero \
+na memoria, ou 'quit' pra fechar: ";
     cin>>choice; // Diga ao programa oque fazer
     if (!strcmp(choice,"restart")) goto start; // VOLTANDO DO INICIO
     if (!strcmp(choice,"reuse")) { a=r; cout<<a; } // USE O RESULTADO
